@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# MPROVE UI AND UX DESIGN OF WEB FORMS
 
-You can use the [editor on GitHub](https://github.com/SrikrushnaP/html5_new_form_element/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+For desktop, forms make sure that you have autofocus on the first input field when you open a particular form. Moreover, it's good if you can move between elements with Tab key.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In mobile/tablet experience, it's good to match keypad.Use specific HTML input types to show the correct keypad.
 
-### Markdown
+### Mobile and desktop
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**input type=”text”** displays the normal mobile device keyboard
 
-```markdown
-Syntax highlighted code block
+**input type=”email”**** displays the normal keyboard plus ‘@’ and ‘.com’
 
-# Header 1
-## Header 2
-### Header 3
+**input type=”tel”** displays the numeric 0-9 keypad
 
-- Bulleted
-- List
+**input type=”number”** displays a keyboard with numbers and symbols
 
-1. Numbered
-2. List
+**input type=”password”** this hides characters as they’re typed in the field
 
-**Bold** and _Italic_ and `Code` text
+**input type=”date”** this displays the mobile’s date selector
 
-[Link](url) and ![Image](src)
-```
+**input type=”datetime”** this displays the mobile’s date and time selector.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**input type=”month”** this displays the mobile’s month/year selector
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SrikrushnaP/html5_new_form_element/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### **Note:** Open in mobile to see the difference
